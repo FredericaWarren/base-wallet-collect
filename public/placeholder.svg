@@ -1,0 +1,9 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="36" fill="#08111F"/>
+  <circle cx="190" cy="122" r="140" fill="#143A63"/>
+  <circle cx="1016" cy="492" r="180" fill="#113F47"/>
+  <rect x="92" y="95" width="1016" height="440" rx="28" fill="#0D1C31" stroke="#4DB6FF" stroke-opacity="0.35"/>
+  <text x="118" y="240" fill="#EBF3FF" font-family="Arial, sans-serif" font-size="74" font-weight="700">Base Wallet Collect</text>
+  <text x="118" y="320" fill="#9EB5D9" font-family="Arial, sans-serif" font-size="34">Supply, balance, transfer, approve, transferFrom</text>
+  <text x="118" y="420" fill="#85FFC7" font-family="Arial, sans-serif" font-size="28">Built for Base Mini App deployment</text>
+</svg>
