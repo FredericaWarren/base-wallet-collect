@@ -1,17 +1,33 @@
 import "./globals.css";
 
+const appUrl = "https://base-wallet-collect.vercel.app";
+const embedMetadata = JSON.stringify({
+  version: "next",
+  imageUrl: `${appUrl}/api/og`,
+  button: {
+    title: "Open Mini App",
+    action: {
+      type: "launch_frame",
+      name: "Base Wallet Collect",
+      url: appUrl,
+      splashImageUrl: `${appUrl}/api/icon`,
+      splashBackgroundColor: "#08111f"
+    }
+  }
+});
+
 export const metadata = {
-  metadataBase: new URL("https://base-wallet-collect.vercel.app"),
+  metadataBase: new URL(appUrl),
   title: "Base Wallet Collect",
   description: "Create and manage ERC-20 token activity on Base with supply, balances, transfers, approvals, and delegated transfers.",
   openGraph: {
     title: "Base Wallet Collect",
     description: "A polished Base mini app for ERC-20 supply, balance, transfer, approval, and transferFrom actions.",
-    url: "https://base-wallet-collect.vercel.app",
+    url: appUrl,
     siteName: "Base Wallet Collect",
     images: [
       {
-        url: "/og-image.png",
+        url: "/api/og",
         width: 1200,
         height: 630,
         alt: "Base Wallet Collect"
@@ -24,7 +40,11 @@ export const metadata = {
     card: "summary_large_image",
     title: "Base Wallet Collect",
     description: "Manage ERC-20 actions on Base in a refined mini app.",
-    images: ["/og-image.png"]
+    images: ["/api/og"]
+  },
+  other: {
+    "fc:miniapp": embedMetadata,
+    "fc:frame": embedMetadata
   }
 };
 
