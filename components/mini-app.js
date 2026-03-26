@@ -20,6 +20,9 @@ import { baseWalletCollectAbi, contractAddress } from "@/lib/contract";
 import { trackTransaction } from "@/utils/track";
 
 const queryClient = new QueryClient();
+const builderCode = "bc_6r04cgxs";
+const dataSuffix =
+  "0x62635f36723034636778730b0080218021802180218021802180218021";
 
 const config = createConfig({
   chains: [base],
@@ -31,7 +34,8 @@ const config = createConfig({
   ],
   transports: {
     [base.id]: http("https://mainnet.base.org")
-  }
+  },
+  dataSuffix
 });
 
 function shorten(value) {
@@ -171,7 +175,8 @@ function MiniAppInner() {
       const hash = await writeContractAsync({
         ...contractConfig,
         functionName: fnName,
-        args
+        args,
+        dataSuffix
       });
       setActiveHash(hash);
       setStatus(`Transaction submitted. Waiting for confirmation: ${hash}`);
@@ -423,8 +428,8 @@ function MiniAppInner() {
               <strong>Embedded in page head</strong>
             </div>
             <div>
-              <span>Attribution</span>
-              <strong>Tracks confirmed transaction hashes</strong>
+              <span>Builder Code</span>
+              <strong>{builderCode}</strong>
             </div>
           </div>
         </section>
@@ -442,4 +447,3 @@ export function MiniApp() {
     </WagmiProvider>
   );
 }
-
