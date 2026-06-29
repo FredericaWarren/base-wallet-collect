@@ -44,3 +44,7 @@ cd base-wallet-collect
 ```
 
 Install dependencies:
+
+```bash
+npm install
+```
