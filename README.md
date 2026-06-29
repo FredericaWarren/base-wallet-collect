@@ -39,3 +39,8 @@ https://github.com/FredericaWarren/base-wallet-collect.git
 Clone the repository:
 
 ```bash
+git clone https://github.com/FredericaWarren/base-wallet-collect.git
+cd base-wallet-collect
+```
+
+Install dependencies:
