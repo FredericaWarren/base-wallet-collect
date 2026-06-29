@@ -68,3 +68,9 @@ Make sure your wallet is connected to Base mainnet before submitting write actio
 ## Deployment
 
 The app is ready for deployment with GitHub and Vercel.
+
+The project includes metadata for Base mini app support, including `base:app_id`.
+
+It also includes Talent verification metadata and transaction attribution tracking in `utils/track.js`.
+
+## Project Notes
