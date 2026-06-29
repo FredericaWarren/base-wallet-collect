@@ -24,3 +24,8 @@ The app is prepared for local development and deployment through a standard GitH
 - Transaction attribution tracking through `utils/track.js`
 
 ## Contract
+
+- Address: `0x787382798015f84171081675bbd33d3590e29b3e`
+- Network: Base mainnet
+
+## Repository
