@@ -7,3 +7,9 @@ It provides a simple interface for common contract actions on Base mainnet, incl
 ## Overview
 
 This project is designed to work with a deployed ERC-20 contract on Base mainnet.
+
+It can be used to inspect contract data and submit supported write actions from a connected wallet.
+
+The app is prepared for local development and deployment through a standard GitHub and Vercel workflow.
+
+## Features
