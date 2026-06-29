@@ -90,3 +90,8 @@ Common development command:
 ```bash
 npm run dev
 ```
+
+Dependency installation command:
+
+```bash
+npm install
