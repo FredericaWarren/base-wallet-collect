@@ -95,3 +95,8 @@ Dependency installation command:
 
 ```bash
 npm install
+```
+
+## License
+
+No license information was provided in the original project README.
