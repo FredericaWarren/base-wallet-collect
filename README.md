@@ -74,3 +74,9 @@ The project includes metadata for Base mini app support, including `base:app_id`
 It also includes Talent verification metadata and transaction attribution tracking in `utils/track.js`.
 
 ## Project Notes
+
+This app is configured for the contract address listed above.
+
+If you change the contract address or network, review every place where contract configuration is used.
+
+Always test changes locally before deploying.
