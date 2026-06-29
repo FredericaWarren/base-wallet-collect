@@ -84,3 +84,9 @@ Always test changes locally before deploying.
 Use caution when submitting write actions on Base mainnet.
 
 ## Scripts
+
+Common development command:
+
+```bash
+npm run dev
+```
