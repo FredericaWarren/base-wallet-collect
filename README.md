@@ -58,3 +58,9 @@ npm run dev
 After the development server starts, open the local URL shown in your terminal.
 
 ## Usage
+
+Use the app interface to connect a wallet and interact with the configured contract.
+
+Available actions include reading total supply, checking a wallet balance, sending a transfer, approving spending, and calling delegated `transferFrom`.
+
+Make sure your wallet is connected to Base mainnet before submitting write actions.
