@@ -33,3 +33,9 @@ The app is prepared for local development and deployment through a standard GitH
 Project repository:
 
 https://github.com/FredericaWarren/base-wallet-collect.git
+
+## Getting Started
+
+Clone the repository:
+
+```bash
