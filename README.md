@@ -18,3 +18,9 @@ The app is prepared for local development and deployment through a standard GitH
 - Query a wallet balance
 - Send a transfer
 - Approve spending
+- Execute delegated `transferFrom`
+- Base mini app metadata support
+- Talent verification metadata support
+- Transaction attribution tracking through `utils/track.js`
+
+## Contract
