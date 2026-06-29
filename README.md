@@ -29,3 +29,7 @@ The app is prepared for local development and deployment through a standard GitH
 - Network: Base mainnet
 
 ## Repository
+
+Project repository:
+
+https://github.com/FredericaWarren/base-wallet-collect.git
