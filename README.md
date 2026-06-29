@@ -80,3 +80,7 @@ This app is configured for the contract address listed above.
 If you change the contract address or network, review every place where contract configuration is used.
 
 Always test changes locally before deploying.
+
+Use caution when submitting write actions on Base mainnet.
+
+## Scripts
