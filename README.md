@@ -64,3 +64,7 @@ Use the app interface to connect a wallet and interact with the configured contr
 Available actions include reading total supply, checking a wallet balance, sending a transfer, approving spending, and calling delegated `transferFrom`.
 
 Make sure your wallet is connected to Base mainnet before submitting write actions.
+
+## Deployment
+
+The app is ready for deployment with GitHub and Vercel.
